@@ -1,0 +1,11 @@
+.cabecalho_menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: calc(100% - 20rem);
+    margin: 0 10rem;
+}
+
+.cabecalho_lista__itens__link__signup {
+    margin-left: 2rem;
+}
