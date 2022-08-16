@@ -6,13 +6,20 @@
     --bg-very-light-red:hsl(13, 100%, 72%);
     --bg-light-red:hsl(353, 100%, 62%);
 
+
     --white:hsl(0, 0%, 100%);
+    --white-opaco:hsl(0, 0%, 100%, 0.7);
     --grayish-blue:hsl(240, 2%, 79%);
     --very-dark-grayish: hsl(207, 13%, 34%);
     --very-dark-black-blue:hsl(240, 10%, 16%);
+
+    --roboto:font-family: 'Roboto', sans-serif;
+    
+
 }
 
 body {
     font-size: 16px;
+    font-family: 'Roboto', sans-serif;
 }
 

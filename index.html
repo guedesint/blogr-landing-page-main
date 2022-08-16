@@ -5,6 +5,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  
   <title>Frontend Mentor | [Blogr]</title>
   <link href="./assets/css/reset.css" rel="stylesheet">
   <link href="./assets/css/base.css" rel="stylesheet">
@@ -14,26 +18,31 @@
 
 <body>
   <header class="cabecalho">
-    
+
     <nav class="cabecalho_menu">
+      <h1 class="cabecalho_logo">Blogr</h1>
       <div class="cabecalho_acessores">
-        <h1 class="cabecalho_logo">Blogr</h1>
-        <select name="" id="" class="cabecalho_acessor__product">
-          <option value="">Product</option>
-        </select>
-        <select name="" id="" class="cabecalho_acessor__company">
-          <option value="">Company</option>
-        </select>
-        <select name="" id="" class="cabecalho_acessor__connect">
-          <option value="contact">contact</option>
-          <option value="newsletter">newsletter</option>
-          <option value="linkedin">linkedin</option>
-        </select>
+        <ul class="acessores">
+          <li class="acessores_item">
+            <a href="#" class="acessores_link">Product</a>
+          </li>
+          <li class="acessores_item">
+            <a href="#" class="acessores_link">Company</a>
+          </li>
+          <li class="acessores_item">
+            <span class="acessores_link">Connect</span>
+            <!-- <ul class="acessores_item__submenu" >
+              <li class="acessores_link__submenu">Contact</li>
+              <li class="acessores_link__submenu">Newsletter</li>
+              <li class="acessores_link__submenu">Linkedin</li>
+            </ul> -->
+          </li>
+        </ul>
       </div>
-      <li class="cabecalho_lista">
-        <ul class="cabecalho_lista__itens">
-          <a href="#" class="cabecalho_lista__itens__link__login">Login</a>
-          <a href="#" class="cabecalho_lista__itens__link__signup">Sign Up</a>
+      <li class="cabecalho_botao">
+        <ul class="cabecalho_lista__botao">
+          <a href="#" class="cabecalho_lista__botao___login">Login</a>
+          <a href="#" class="cabecalho_lista__botao___signup">Sign Up</a>
         </ul>
       </li>
     </nav>
