@@ -2,9 +2,9 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: calc(100% - 7rem);
-    height: 3.75rem;
-    margin: 1rem 5rem 0 2rem;
+    width: calc(100% - 17rem);
+    height: 8rem;
+    margin: 0rem 7rem 0 10rem;
     align-items: center;
     color: var(--white);
 }
@@ -15,13 +15,14 @@
 
 .cabecalho_acessores {
     display: flex;
-    width: 60%;
+    width: 65%;
     height: 3.75rem;
+    padding-top: 1rem;
 }
 
 .acessores {
     display: flex;
-    align-items: center; 
+    align-items: center;
     column-gap: 2rem;
 }
 
@@ -32,6 +33,15 @@
     font-size: 1rem;
     font-weight: 700;
     background: url(../../images/icon-arrow-light.svg) no-repeat right;
+    cursor: pointer;
+}
+
+.acessores_link:hover {
+    background-color: transform ;
+}
+
+.acessores_item {
+    position: relative;
 }
 
 .cabecalho_lista__botao___login {
@@ -42,9 +52,34 @@
 }
 
 .cabecalho_lista__botao___signup {
-
+    background-color: var(--white);
+    border-radius: 2rem;
+    padding: 1rem 2.9rem;
+    color: var(--light-red);
+    font-weight: 700;
 }
 
+.acessores_submenu {
+    width: 200px;
+    background-color: var(--white);
+    margin: 0;
+    padding: 1rem 0;
+    position: absolute;
+}
 
+.acessores_submenu-item {
+    
+}
 
+.acessores_submenu-item:not(:last-child) {
+    margin-bottom: 10px;
+}
 
+.acessores_submenu-link {
+    color: var(--very-dark-black-blue);
+    font-weight: 600;
+}
+
+.acessores_submenu-link:hover {
+        text-decoration: underline;
+    }
